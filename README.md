@@ -35,6 +35,8 @@ In this exercise, we will use Z3 to reason about a simple forwarding information
 
 For modeling purposes, we assume that **if the output port is set to 10, the packet will be dropped**. The packet will also be dropped if it's destination IP address does not match any of the prefixes specified by the rules in the table. 
 
+Note that the rules are **prioritized** by their order. The rules that appear earlier have higher priorities. If a packet matches more than one rule, it will be assigned an output port based on the rule that appears earlier than the others. 
+
 We would like to model the forwarding behavior that results from this table in logic, and given a IP prefix $p$, we would like to be able to ask the following query:
 
 *Would any packets whose destination IP address belongs to p be dropped by this table?*
