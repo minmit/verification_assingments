@@ -1,4 +1,4 @@
-from solution import *
+from fib import *
 
 if __name__ == "__main__":
     dstip_vars, output_port, fib_model = create_fib_model("rules.txt")
