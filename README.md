@@ -2,7 +2,7 @@
 
 This assignment will help you get familiar with how to model simple network functionality in first-order logic and use the [Z3 theoram prover](https://github.com/Z3Prover/z3) to automatically reason about it.
 
-**This assignment is optional and can count as 5% extra credit towards your final grade. Due date is April 17.**
+**This assignment is optional and can count as 5% extra credit towards your final grade. Due date is April 15.**
 
 ## Obtaining required software
 
